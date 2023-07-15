@@ -41,7 +41,7 @@ class Renderer: NSObject {
   var pipelineState: MTLRenderPipelineState!
 
   lazy var model: Model = {
-    Model(device: Renderer.device, name: "train.usd")
+    Model(device: Renderer.device, name: "nail.obj")
   }()
 
   var timer: Float = 0
@@ -126,7 +126,8 @@ extension Renderer: MTKViewDelegate {
     timer += 0.005
     uniforms.viewMatrix = float4x4(translation: [0, 0, -3]).inverse
 
-    model.position.y = -0.6
+    model.position.y = 0
+    model.scale = 0.1
     model.rotation.y = sin(timer)
     uniforms.modelMatrix = model.transform.modelMatrix
 

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		046E08DF2A62ACAB00DAD76D /* Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825D702527BE29CC00B689D3 /* Transform.swift */; };
+		046E08E12A62AD5700DAD76D /* nail.obj in Resources */ = {isa = PBXBuildFile; fileRef = 046E08E02A62AD5700DAD76D /* nail.obj */; };
+		046E08E22A62AD5D00DAD76D /* nail.obj in Resources */ = {isa = PBXBuildFile; fileRef = 046E08E02A62AD5700DAD76D /* nail.obj */; };
 		823D8B1C26B12E8600D2A25A /* SpacesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823D8B0E26B12E8500D2A25A /* SpacesApp.swift */; };
 		823D8B1D26B12E8600D2A25A /* SpacesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823D8B0E26B12E8500D2A25A /* SpacesApp.swift */; };
 		823D8B1E26B12E8600D2A25A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823D8B0F26B12E8500D2A25A /* ContentView.swift */; };
@@ -26,12 +28,11 @@
 		823D8B3926B12F2C00D2A25A /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 823D8B3726B12F2C00D2A25A /* Shaders.metal */; };
 		823D8B3B26B12F7A00D2A25A /* MathLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823D8B3A26B12F7A00D2A25A /* MathLibrary.swift */; };
 		823D8B3C26B12F7A00D2A25A /* MathLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823D8B3A26B12F7A00D2A25A /* MathLibrary.swift */; };
-		823D8B3F26B1308400D2A25A /* train.usd in Resources */ = {isa = PBXBuildFile; fileRef = 823D8B3E26B1308400D2A25A /* train.usd */; };
-		823D8B4026B1308400D2A25A /* train.usd in Resources */ = {isa = PBXBuildFile; fileRef = 823D8B3E26B1308400D2A25A /* train.usd */; };
 		825D702627BE29CC00B689D3 /* Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825D702527BE29CC00B689D3 /* Transform.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		046E08E02A62AD5700DAD76D /* nail.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nail.obj; sourceTree = "<group>"; };
 		823D8B0E26B12E8500D2A25A /* SpacesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacesApp.swift; sourceTree = "<group>"; };
 		823D8B0F26B12E8500D2A25A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		823D8B1026B12E8600D2A25A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,7 +44,6 @@
 		823D8B3426B12F2300D2A25A /* VertexDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VertexDescriptor.swift; sourceTree = "<group>"; };
 		823D8B3726B12F2C00D2A25A /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 		823D8B3A26B12F7A00D2A25A /* MathLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathLibrary.swift; sourceTree = "<group>"; };
-		823D8B3E26B1308400D2A25A /* train.usd */ = {isa = PBXFileReference; lastKnownFileType = file; path = train.usd; sourceTree = "<group>"; };
 		825D702427BE282700B689D3 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		825D702527BE29CC00B689D3 /* Transform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transform.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,7 +113,7 @@
 		823D8B3D26B1307400D2A25A /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				823D8B3E26B1308400D2A25A /* train.usd */,
+				046E08E02A62AD5700DAD76D /* nail.obj */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -208,7 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				823D8B2026B12E8600D2A25A /* Assets.xcassets in Resources */,
-				823D8B3F26B1308400D2A25A /* train.usd in Resources */,
+				046E08E12A62AD5700DAD76D /* nail.obj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				823D8B2126B12E8600D2A25A /* Assets.xcassets in Resources */,
-				823D8B4026B1308400D2A25A /* train.usd in Resources */,
+				046E08E22A62AD5D00DAD76D /* nail.obj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,7 +418,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 647C93VCT8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -432,7 +432,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = raywenderlich.Spaces;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.elev8xr.metalrendering;
 				PRODUCT_NAME = Spaces;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -448,7 +448,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 647C93VCT8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -462,7 +462,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = raywenderlich.Spaces;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.elev8xr.metalrendering;
 				PRODUCT_NAME = Spaces;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
